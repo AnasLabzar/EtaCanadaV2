@@ -1,10 +1,12 @@
 import React from 'react';
+import bgMain from '../../Assets/img/bg-main.jpg'
+import { CountryList } from '../../Assets/json/countryList';
 
 
 const Main = () => {
     return (
         <div>
-            <div className='bg-[url("https://i.ibb.co/3NWHqCW/bg-main.jpg")] bg-cover h-[40em]'></div>
+            <img className='h-[40em] w-full bg-cover' src={bgMain} />
         </div>
     );
 };

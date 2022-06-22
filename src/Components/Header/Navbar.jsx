@@ -13,7 +13,7 @@ const Navbar = () => {
                     />
                 </div>
                 <div className='w-1/3 absolute right-0 text-white flex my-1'>
-                    Support : +1454544544
+                    Contact now : +1-202-555-0106
                 </div>
             </nav>
         </div>
